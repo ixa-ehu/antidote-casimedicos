@@ -6,16 +6,15 @@ answers included in the Resident Medical Intern exams, or Médico Interno Reside
 students by means of a multiple-choice questionnaire sometimes contextualized by a short clinical case.
 
 CasiMedicos Project MIR 2.0's objective is to generate a resource that
-helps future medical doctors to study towards the MIR examinations. Thus, the original commented MIR exams, including the explanations, are published in the 
+helps future medical doctors to study towards the MIR examinations. Thus, the original commented MIR exams (published every year by the Spanish Ministry of Health), including the explanations, are released in the 
 [CasiMedicos Project MIR 2.0 website](https://www.casimedicos.com/mir-2-0/).
 
-Based on the original CasiMedicos data, we have generated three different variants of the Antidote CasiMedicos datasets.
+Based on the original CasiMedicos data, we have generated three different variants of the Antidote CasiMedicos datasets:
 
-+ casimedicos-raw
-+ casimedicos-exp
-+ casimedicos-arg
++ casimedicos-raw: the clean plain text documents including the original MIR exam and the explanations written by Spanish medical doctors.
++ casimedicos-exp: manual annotation explanation spans, linking the parts in the explanation to the possible answers they refer to.
++ casimedicos-arg: manual annotation of argumentative structures, including argument components and relations, discourse markers, medical treatments and diagnosis.
 
-These datasets have been developed within the [ANTIDOTE CHIST-ERA project](https://univ-cotedazur.eu/antidote).
 
 ## casimedicos-raw
 After crawling, cleaning, and organizing the data, we obtained 1,561 com-
@@ -27,6 +26,9 @@ documents from 1,561 to 575.
 
 ## casimedicos-arg
 
+TBA
+
 ## Contact Details
 
+These datasets have been developed within the [ANTIDOTE CHIST-ERA project](https://univ-cotedazur.eu/antidote).
 Rodrigo Agerri (rodrigo.agerri@ehu.eus)
