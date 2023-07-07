@@ -41,10 +41,9 @@ the explanation of the correct answer (A) begins and ends.
 
 In order to obtain grammatically complete correct answer explanations, annotating full sentences or subordinate clauses was preferred over
 shorter spans. The annotation took the equivalent of a person's month work
-(4 weeks, 160 hours). The dataset is provided in two forms: 
+(4 weeks, 160 hours). The dataset is provided in the following form: 
 
-1. [download-casimedicos-exp-squad-format](casimedicos-exp-squad-format.tar.gz): formatted for extractive correct answer explanations following the SQUAD format.
-2. [download-casimedicos-exp-all](casimedicos-exp-jsonl.tar.gz): jsonl files containing the annotations for both correct and incorrect answers.
+1. [download-casimedicos-exp-squad-format](https://github.com/ixa-ehu/antidote-casimedicos/raw/main/casimedicos-exp-squad-format.tar.gz): formatted for extractive correct answer explanations following the SQUAD format.
 
 **If you use casimedicos-exp data please cite the following paper:** 
 
