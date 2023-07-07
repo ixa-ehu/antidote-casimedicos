@@ -43,7 +43,7 @@ In order to obtain grammatically complete correct answer explanations, annotatin
 shorter spans. The annotation took the equivalent of a person's month work
 (4 weeks, 160 hours). The dataset is provided in two forms: 
 
-1. [download-casimedicos-exp-squad-format](casimedicos-exp-squad.tar.gz): formatted for extractive correct answer explanations following the SQUAD format.
+1. [download-casimedicos-exp-squad-format](casimedicos-exp-squad-format.tar.gz): formatted for extractive correct answer explanations following the SQUAD format.
 2. [download-casimedicos-exp-all](casimedicos-exp-jsonl.tar.gz): jsonl files containing the annotations for both correct and incorrect answers.
 
 **If you use casimedicos-exp data please cite the following paper:** 
