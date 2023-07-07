@@ -25,8 +25,30 @@ are quite heterogeneous. Some are very elaborate and rich, while others are too 
 
 + [download casimedicos-raw](casimedicos-raw.tar.gz)
 
+If you use **casimedicos-raw** please cite the following paper:
+
+Rodrigo Agerri, Iñigo Alonso, Aitziber Atutxa, Ander Berrondo, Ainara Estarrona, Iker Garcia-Ferrero, Iakes Goenaga, Koldo Gojenola, Maite Oronoz, Igor Perez-Tejedor, German Rigau, Anar Yeginbergenova (2023).
+[HiTZ@Antidote: Argumentation-driven Explainable Artificial Intelligence for Digital Medicine](https://arxiv.org/pdf/2306.06029). In SEPLN 2023: 39th International Conference of the Spanish Society for Natural Language Processing.
+
 ## casimedicos-exp
 
+For this dataset we selected the docments generated in casimedicos-raw, namely, those that include a
+clinical case to contextualize the question, possible answers
+and the given explanations.
+
+The process of manually annotating the corpus consisted of specifying where
+the explanation of the correct answer (A) begins and ends. 
+
+In order to obtain grammatically complete correct answer explanations, annotating full sentences or subordinate clauses was preferred over
+shorter spans. The annotation took the equivalent of a person's month work
+(4 weeks, 160 hours). The dataset is provided in two forms: 
+
+1. [download-casimedicos-exp-squad-format](casimedicos-exp-squad.tar.gz): formatted for extractive correct answer explanations following the SQUAD format.
+2. [download-casimedicos-exp-all](casimedicos-exp-jsonl.tar.gz): jsonl files containing the annotations for both correct and incorrect answers.
+
+If you use **casimedicos-exp** data please cite the following paper: 
+
++ Iakes Goenaga, Aitziber Atutxa, Koldo Gojenola, Maite Oronoz, Rodrigo Agerri (2023). Explanatory Argument Extraction of Correct Answers in Resident Medical Exams. In Arxiv.
 
 
 ## casimedicos-arg
