@@ -41,13 +41,23 @@ the explanation of the correct answer (A) begins and ends.
 
 In order to obtain grammatically complete correct answer explanations, annotating full sentences or subordinate clauses was preferred over
 shorter spans. The annotation took the equivalent of a person's month work
-(4 weeks, 160 hours). The dataset is provided in the following form: 
+(4 weeks, 160 hours). The dataset is provided in two different following forms: 
 
-1. [download-casimedicos-exp-squad-format](https://github.com/ixa-ehu/antidote-casimedicos/raw/main/casimedicos-exp-squad-format.tar.gz): formatted for extractive correct answer explanations following the SQUAD format.
+1. [casimedicos-exp-squad-format](https://github.com/ixa-ehu/antidote-casimedicos/raw/main/casimedicos-exp-squad-format.tar.gz): formatted for extractive correct answer explanations following the SQUAD format.
 
 **If you use casimedicos-exp data please cite the following paper:** 
 
-+ Iakes Goenaga, Aitziber Atutxa, Koldo Gojenola, Maite Oronoz, Rodrigo Agerri (2023). Explanatory Argument Extraction of Correct Answers in Resident Medical Exams. In Arxiv.
+````bibtex
+@misc{goenaga2023explanatory,
+      title={Explanatory Argument Extraction of Correct Answers in Resident Medical Exams}, 
+      author={Iakes Goenaga and Aitziber Atutxa and Koldo Gojenola and Maite Oronoz and Rodrigo Agerri},
+      year={2023},
+      eprint={2312.00567},
+      archivePrefix={arXiv}
+}
+````
+
+2. casimedicos-exp-jsonl-format](): including both annotations for incorrect and correct answers in jsonl format.
 
 
 ## casimedicos-arg
