@@ -9,10 +9,10 @@ CasiMedicos Project MIR 2.0's objective is to generate a resource that
 helps future medical doctors to study towards the MIR examinations. Thus, the original commented MIR exams (published every year by the Spanish Ministry of Health), including the explanations, are released in the 
 [CasiMedicos Project MIR 2.0 website](https://www.casimedicos.com/mir-2-0/).
 
-Based on the original CasiMedicos data, we have generated three different variants of the Antidote CasiMedicos datasets:
+Based on the original Spanish CasiMedicos data, we have generated three different variants of the Antidote CasiMedicos datasets for 4 languages, **English, French, Italian and Spanish**.
 
 + **casimedicos-raw**: the clean plain text documents including the original MIR exam and the explanations written by Spanish medical doctors.
-+ **casimedicos-exp**: manual annotation explanation spans, linking the parts in the explanation to the possible answers they refer to.
++ **casimedicos-exp**: manual annotation of explanation spans, linking the parts in the explanation to the possible answers they refer to.
 + **casimedicos-arg**: manual annotation of argumentative structures, including argument components and relations, discourse markers, medical treatments and diagnosis.
 
 These datasets have been developed within the [ANTIDOTE CHIST-ERA project](https://univ-cotedazur.eu/antidote).
@@ -26,9 +26,14 @@ are quite heterogeneous. Some are very elaborate and rich, while others are too 
 + [download casimedicos-raw](casimedicos-raw.tar.gz)
 
 **If you use casimedicos-raw please cite the following paper:**
-
-+ Rodrigo Agerri, Iñigo Alonso, Aitziber Atutxa, Ander Berrondo, Ainara Estarrona, Iker Garcia-Ferrero, Iakes Goenaga, Koldo Gojenola, Maite Oronoz, Igor Perez-Tejedor, German Rigau, Anar Yeginbergenova (2023).
-[HiTZ@Antidote: Argumentation-driven Explainable Artificial Intelligence for Digital Medicine](https://arxiv.org/pdf/2306.06029). In SEPLN 2023: 39th International Conference of the Spanish Society for Natural Language Processing.
+````bibtex
+@inproceedings{Agerri2023HiTZAntidoteAE,
+  title={HiTZ@Antidote: Argumentation-driven Explainable Artificial Intelligence for Digital Medicine},
+  author={Rodrigo Agerri and I{\~n}igo Alonso and Aitziber Atutxa and Ander Berrondo and Ainara Estarrona and Iker Garc{\'i}a-Ferrero and Iakes Goenaga and Koldo Gojenola and Maite Oronoz and Igor Perez-Tejedor and German Rigau and Anar Yeginbergenova},
+  booktitle={SEPLN 2023: 39th International Conference of the Spanish Society for Natural Language Processing.},
+  year={2023}
+}
+````
 
 ## casimedicos-exp
 
@@ -44,6 +49,7 @@ shorter spans. The annotation took the equivalent of a person's month work
 (4 weeks, 160 hours). The dataset is provided in two different following forms: 
 
 1. [casimedicos-exp-squad-format](https://github.com/ixa-ehu/antidote-casimedicos/raw/main/casimedicos-exp-squad-format.tar.gz): formatted for extractive correct answer explanations following the SQUAD format.
+2. [casimedicos-exp-jsonl-format](): including both annotations for incorrect and correct answers in jsonl format.
 
 **If you use casimedicos-exp data please cite the following paper:** 
 
@@ -57,7 +63,6 @@ shorter spans. The annotation took the equivalent of a person's month work
 }
 ````
 
-2. casimedicos-exp-jsonl-format](): including both annotations for incorrect and correct answers in jsonl format.
 
 
 ## casimedicos-arg
