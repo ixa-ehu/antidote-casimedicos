@@ -49,7 +49,7 @@ shorter spans. The annotation took the equivalent of a person's month work
 (4 weeks, 160 hours). The dataset is provided in two different following forms: 
 
 1. [casimedicos-exp-squad-format](https://github.com/ixa-ehu/antidote-casimedicos/raw/main/casimedicos-exp-squad-format.tar.gz): formatted for extractive correct answer explanations following the SQUAD format.
-2. [casimedicos-exp-jsonl-format](): including both annotations for incorrect and correct answers in jsonl format.
+2. [casimedicos-exp-jsonl-format](https://huggingface.co/datasets/HiTZ/casimedicos-exp): including annotations for incorrect and correct answers in jsonl format.
 
 **If you use casimedicos-exp data please cite the following paper:** 
 
