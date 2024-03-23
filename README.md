@@ -23,7 +23,7 @@ After crawling, cleaning, and organizing the data, we obtained 1,561 commented q
 Selecting those questions which included clinical cases before the question reduced the number of documents from 1,561 to 622. It should be noted that the answers
 are quite heterogeneous. Some are very elaborate and rich, while others are too simple.
 
-+ [download casimedicos-raw](casimedicos-raw.tar.gz)
++ [download casimedicos-raw](https://huggingface.co/datasets/HiTZ/casimedicos-exp)
 
 **If you use casimedicos-raw please cite the following paper:**
 ````bibtex
@@ -37,23 +37,22 @@ are quite heterogeneous. Some are very elaborate and rich, while others are too 
 
 ## casimedicos-exp
 
-For this dataset we selected the docments generated in casimedicos-raw, namely, those that include a
-clinical case to contextualize the question, possible answers
-and the given explanations.
+For this dataset we selected the docments generated in **casimedicos-raw**, namely, those that include a
+clinical case to contextualize the question, possible answers and the given explanations.
 
-The process of manually annotating the corpus consisted of specifying where
-the explanation of the correct answer (A) begins and ends. 
+The process of manually annotating the corpus consisted of specifying where the explanations of the correct and incorrect answers begin and end. 
 
 In order to obtain grammatically complete correct answer explanations, annotating full sentences or subordinate clauses was preferred over
 shorter spans. The annotation took the equivalent of a person's month work
 (4 weeks, 160 hours). The dataset is provided in two different following forms: 
 
 1. [casimedicos-exp-squad-format](https://github.com/ixa-ehu/antidote-casimedicos/raw/main/casimedicos-exp-squad-format.tar.gz): formatted for extractive correct answer explanations following the SQUAD format.
-2. [casimedicos-exp-jsonl-format](https://huggingface.co/datasets/HiTZ/casimedicos-exp): including annotations for incorrect and correct answers in jsonl format.
+2. [casimedicos-exp-jsonl-format](https://huggingface.co/datasets/HiTZ/casimedicos-exp): including **casimedicos-raw** and annotations for incorrect and correct answers in jsonl format.
 
-**If you use casimedicos-exp data please cite the following paper:** 
+Please **cite the previous and the following** paper if you also use **casimedicos-exp**, namely, the manual annotations linking the 
+explanations with the correct and incorrect possible answers ("explanations" attribute in the jsonl data):
 
-````bibtex
+```bibtex
 @misc{goenaga2023explanatory,
       title={Explanatory Argument Extraction of Correct Answers in Resident Medical Exams}, 
       author={Iakes Goenaga and Aitziber Atutxa and Koldo Gojenola and Maite Oronoz and Rodrigo Agerri},
@@ -61,9 +60,7 @@ shorter spans. The annotation took the equivalent of a person's month work
       eprint={2312.00567},
       archivePrefix={arXiv}
 }
-````
-
-
+```
 
 ## casimedicos-arg
 
