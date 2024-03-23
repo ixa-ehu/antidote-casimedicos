@@ -46,10 +46,10 @@ In order to obtain grammatically complete correct answer explanations, annotatin
 shorter spans. The annotation took the equivalent of a person's month work
 (4 weeks, 160 hours). The dataset is provided in two different following forms: 
 
-1. [casimedicos-exp-squad-format](https://github.com/ixa-ehu/antidote-casimedicos/raw/main/casimedicos-exp-squad-format.tar.gz): formatted for extractive correct answer explanations following the SQUAD format.
+1. [casimedicos-exp-squad-format](https://huggingface.co/datasets/HiTZ/casimedicos-squad): formatted for extractive correct answer explanations following the SQUAD format.
 2. [casimedicos-exp-jsonl-format](https://huggingface.co/datasets/HiTZ/casimedicos-exp): including **casimedicos-raw** and annotations for incorrect and correct answers in jsonl format.
 
-Please **cite the previous and the following** paper if you also use **casimedicos-exp**, namely, the manual annotations linking the 
+Please **cite the previous and the following** paper if you also use **casimedicos-squad** or **casimedicos-exp**, namely, the manual annotations linking the 
 explanations with the correct and incorrect possible answers ("explanations" attribute in the jsonl data):
 
 ```bibtex
