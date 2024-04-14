@@ -42,12 +42,11 @@ The process of manually annotating the corpus consisted of specifying where the 
 
 In order to obtain grammatically complete correct answer explanations, annotating full sentences or subordinate clauses was preferred over
 shorter spans. The annotation took the equivalent of a person's month work
-(4 weeks, 160 hours). The dataset is provided in two different following forms: 
+(4 weeks, 160 hours). The dataset is provided here: 
 
 1. [casimedicos-exp-squad-format](https://huggingface.co/datasets/HiTZ/casimedicos-squad): formatted for extractive correct answer explanations following the SQUAD format.
-2. [casimedicos-exp-jsonl-format](https://huggingface.co/datasets/HiTZ/casimedicos-exp): including **casimedicos-raw** and annotations for incorrect and correct answers in jsonl format.
 
-Please **cite the previous and the following** paper if you also use **casimedicos-squad** or **casimedicos-exp**, namely, the manual annotations linking the 
+Please **cite the previous and the following** paper if you also use **casimedicos-squad**, namely, the manual annotations linking the 
 explanations with the correct and incorrect possible answers ("explanations" attribute in the jsonl data):
 
 ```bibtex
