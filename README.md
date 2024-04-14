@@ -9,8 +9,6 @@ CasiMedicos Project MIR 2.0's objective is to generate a resource that
 helps future medical doctors to study towards the MIR examinations. Thus, the original commented MIR exams (published every year by the Spanish Ministry of Health), including the explanations, are released in the 
 [CasiMedicos Project MIR 2.0 website](https://www.casimedicos.com/mir-2-0/).
 
-Based on the original Spanish CasiMedicos data, we have generated three different variants of the Antidote CasiMedicos datasets for 4 languages, **English, French, Italian and Spanish**.
-
 + **casimedicos-raw**: the clean plain text documents including the original MIR exam and the explanations written by Spanish medical doctors.
 + **casimedicos-exp**: manual annotation of explanation spans, linking the parts in the explanation to the possible answers they refer to.
 + **casimedicos-arg**: manual annotation of argumentative structures, including argument components and relations, discourse markers, medical treatments and diagnosis.
