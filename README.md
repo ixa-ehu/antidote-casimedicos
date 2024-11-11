@@ -79,7 +79,8 @@ author = {Iñigo Alonso and Maite Oronoz and Rodrigo Agerri},
 
 ## casimedicos-arg
 
-1. [Download CasiMedicos-Arg](https://huggingface.co/datasets/HiTZ/casimedicos-arg)
+1. [Download CasiMedicos-Arg in JSONL format](https://huggingface.co/datasets/HiTZ/casimedicos-arg)
+2. [Download CasiMedicos-Arg in IOB2 format](https://github.com/ixa-ehu/antidote-casimedicos/raw/8a3acb9bf87db4ac9980655d8e1826405c8c6025/casimedicos-arg.tar.gz)
 
 [CasiMedicos-Arg](https://huggingface.co/datasets/HiTZ/casimedicos-arg) is, to the best of our knowledge, the first multilingual dataset for Medical Question Answering where correct and incorrect diagnoses for a clinical case are enriched with a natural language explanation written by doctors. The [casimedicos-exp](https://huggingface.co/datasets/HiTZ/casimedicos-exp) have been manually annotated with argument components (i.e., premise, claim) and argument relations (i.e., attack, support). Thus, Multilingual CasiMedicos-arg dataset consists of 558 clinical cases (English, Spanish, French, Italian) with explanations, where we annotated 5021 claims, 2313 premises, 2431 support relations, and 1106 attack relations.
 
