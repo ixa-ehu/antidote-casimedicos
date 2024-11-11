@@ -49,7 +49,7 @@ shorter spans. The annotation took the equivalent of a person's month work
 Please **cite the previous and the following** paper if you also use [casimedicos-squad]((https://huggingface.co/datasets/HiTZ/casimedicos-squad), namely, the manual annotations linking the 
 explanations with the correct and incorrect possible answers ("explanations" attribute in the jsonl data):
 
-```bibtex
+````bibtex
 @article{GOENAGA2024102985,
 title = {Explanatory argument extraction of correct answers in resident medical exams},
 journal = {Artificial Intelligence in Medicine},
@@ -59,11 +59,12 @@ year = {2024},
 issn = {0933-3657},
 doi = {https://doi.org/10.1016/j.artmed.2024.102985},
 author = {Iakes Goenaga and Aitziber Atutxa and Koldo Gojenola and Maite Oronoz and Rodrigo Agerri},
-}```
+}
+````
 
 2. [MedExpQA](https://huggingface.co/datasets/HiTZ/MedExpQA): casimedicos-exp with RAG for Medical QA. Please **cite the following paper** if you use [casimedicos-exp](https://huggingface.co/datasets/HiTZ/casimedicos-exp) or [MedExpQA](https://huggingface.co/datasets/HiTZ/MedExpQA):
 
-```bibtex
+````bibtex
 @article{ALONSO2024102938,
 title = {MedExpQA: Multilingual benchmarking of Large Language Models for Medical Question Answering},
 journal = {Artificial Intelligence in Medicine},
@@ -73,7 +74,8 @@ year = {2024},
 issn = {0933-3657},
 doi = {https://doi.org/10.1016/j.artmed.2024.102938},
 author = {Iñigo Alonso and Maite Oronoz and Rodrigo Agerri},
-}```
+}
+````
 
 ## casimedicos-arg
 
@@ -83,7 +85,7 @@ author = {Iñigo Alonso and Maite Oronoz and Rodrigo Agerri},
 
 If you **use CasiMedicos-Arg** please cite the following paper:
 
-```bibtex
+````bibtex
 @inproceedings{sviridova-etal-2024-casimedicos,
     title = {{CasiMedicos-Arg: A Medical Question Answering Dataset Annotated with Explanatory Argumentative Structures}},
     author = "Sviridova, Ekaterina  and
@@ -96,7 +98,8 @@ If you **use CasiMedicos-Arg** please cite the following paper:
     year = "2024",
     url = "https://aclanthology.org/2024.emnlp-main.1026",
     pages = "18463--18475"
-}```
+}
+````
 
 ## License
 
